@@ -1,0 +1,18 @@
+mysql> INSERT INTO names (name) VALUE ('Tom');
+ERROR 2006 (HY000): MySQL server has gone away
+No connection. Trying to reconnect...
+Connection id:    6
+Current database: udacity
+
+Query OK, 1 row affected (0.03 sec)
+
+mysql> SELECT * FROM names;
++----+-------+
+| id | name  |
++----+-------+
+|  1 | Johan |
+|  2 | Tom   |
++----+-------+
+2 rows in set (0.00 sec)
+
+mysql> 
